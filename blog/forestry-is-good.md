@@ -1,7 +1,7 @@
 ---
 tags:
 - test
-id: f42
+slug: f42
 title: Forestry is good
 author: Testy McTest
 author_title: I'm Mr McTest and I test things
