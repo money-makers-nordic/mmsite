@@ -1,11 +1,11 @@
 module.exports = {
   title: 'The Money Makers',
   tagline: 'Financial know-how for newcomers in the Nordics',
-  url: 'https://themoneymakers.se',
-  baseUrl: '/',
+  url: 'www.themoneymakers.se',
+  baseUrl: '/mmsite/',
   favicon: 'img/favicon.ico',
-  organizationName: 'moneymakersnordic', // Usually your GitHub org/user name.
-  projectName: 'mmdocs', // Usually your repo name.
+  organizationName: 'money-makers-nordic', // Usually your GitHub org/user name.
+  projectName: 'mmsite', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'themoneymakers.se',
