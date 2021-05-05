@@ -2,7 +2,7 @@ module.exports = {
   title: 'The Money Makers',
   tagline: 'Financial know-how for newcomers in the Nordics',
   url: 'http://money-makers-nordic.github.io',
-  baseUrl: '/',
+  baseUrl: '/mmsite',
   favicon: 'img/favicon.ico',
   organizationName: 'money-makers-nordic', // Usually your GitHub org/user name.
   projectName: 'mmsite', // Usually your repo name.
