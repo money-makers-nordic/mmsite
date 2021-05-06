@@ -6,8 +6,9 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+
 const features = [
-  {
+  /*{
     title: <>Easy to Use</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
@@ -36,8 +37,9 @@ const features = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },
+  },*/
 ];
+
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -71,8 +73,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl('blog/')}>
+              Blog
             </Link>
           </div>
         </div>

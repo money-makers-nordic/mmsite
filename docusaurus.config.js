@@ -14,13 +14,18 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
+        // {
+        //   to: 'docs/',
+        //   activeBasePath: 'docs',
+        //   label: 'Docs',
+        //   position: 'left',
+        // },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://www.facebook.com/groups/144739109544832',
+          label: 'Facebook',
+          position: 'right',
+        },
         {
           href: 'https://instagram.com/themoneymakers.se',
           label: 'Instagram',
@@ -31,7 +36,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
+        /*{
           title: 'Docs',
           items: [
             {
@@ -43,7 +48,7 @@ module.exports = {
               to: 'docs/doc2/',
             },
           ],
-        },
+        },*/
         {
           title: 'Community',
           items: [
@@ -58,20 +63,16 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Contact',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/moneymakersnordic/mmdocs',
-            },
+              label: 'Email',
+              to: 'mailto:moneymakersnordic@gmail.com',
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} I. Engström`,
+      copyright: `Copyright © ${new Date().getFullYear()}, Money Makers Nordic`,
     },
   },
   presets: [
