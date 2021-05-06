@@ -1,11 +1,13 @@
 ---
-tags: []
+tags:
+- start-here
+- welcome
 slug: start
-title: Become a Money Maker [START HERE]
-author: Isak
-author_title: Maker
+title: Start Here!
+author: Isak Engström
+author_title: Part of the Team
 author_url: ''
-author_image_url: ''
+author_image_url: https://avatars.githubusercontent.com/u/61279302?v=4
 
 ---
 We are The Money Makers.
