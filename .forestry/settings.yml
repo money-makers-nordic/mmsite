@@ -25,9 +25,6 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:-:month:-:day:-:filename:"
 build:
-  preview_env:
-  - CURRENT_BRANCH=master
-  - DEPLOYMENT_BRANCH=gh-pages
   preview_output_directory: preview-build
   install_dependencies_command: yarn
   preview_docker_image: forestryio/node:12
