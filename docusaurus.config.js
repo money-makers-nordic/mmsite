@@ -11,7 +11,7 @@ module.exports = {
       title: 'themoneymakers.se',
       logo: {
         alt: 'MM Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         // {
